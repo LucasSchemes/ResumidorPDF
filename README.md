@@ -33,6 +33,34 @@ Este projeto permite extrair conteúdo de arquivos PDF e gerar resumos automáti
 ```bash
 git clone https://github.com/seuusuario/pdf-resumo.git
 cd pdf-resumo
-
+```
 
 2. (Opcional) Crie um ambiente virtual:
+```bash
+python -m venv venv
+# Linux/macOS
+source venv/bin/activate
+# Windows
+venv\Scripts\activate.bat
+```
+
+3. Instale as dependências
+```bash
+pip install -r requirements.txt
+```
+
+4. Instale o Tesseract OCR
+- Baixe o instalador em: https://github.com/tesseract-ocr/tesseract
+
+## Como Usar
+
+1. Coloque o arquivo PDF na mesma pasta do projeto ou forneça o caminho completo.
+2. Execute o programa principal:
+```bash
+python main.py
+```
+3. Insira o caminho do PDF quando solicitado.
+4. O sistema irá:
+- Extrair o texto (com OCR se necessário)
+- Gerar o resumo
+- Salvar o resultado em resumo.txt
