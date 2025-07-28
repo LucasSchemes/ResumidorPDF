@@ -33,3 +33,6 @@ Este projeto permite extrair conteúdo de arquivos PDF e gerar resumos automáti
 ```bash
 git clone https://github.com/seuusuario/pdf-resumo.git
 cd pdf-resumo
+
+
+2. (Opcional) Crie um ambiente virtual:
